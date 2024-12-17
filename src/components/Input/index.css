@@ -1,0 +1,44 @@
+.my-input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    max-width: 600px;
+  }
+  
+  .my-input-label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .my-input-label--danger {
+    color: red;
+  }
+  
+  .my-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+  }
+  
+  .my-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  .my-input--danger {
+    border-color: red;
+    color: red;
+  }
+  
+  .my-input--danger::placeholder {
+    color: red;
+}
+
+  .my-input[disabled] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
