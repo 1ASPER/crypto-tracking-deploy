@@ -1,6 +1,6 @@
 import { Button } from './components/Button';
 import { Input } from './components/Input';
-import { Typography } from './components/Typography';
+// import { Typography } from './components/Typography';
 import { Heading } from './components/Heading';  
 import { Tooltip } from './components/Tooltip';
 import { Accordion } from './components/Accordion';
